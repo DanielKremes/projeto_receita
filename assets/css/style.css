@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root {
+    --cor-0: #fff;
+    --cor-1: #000;
+    --cor-3: #00ffff;
+    --cor-4: #ff4500;
+    --font-content-page: "Young Serif", serif;
+    --font-title-page: "Outfit", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-0);
+    font-family: var(--font-title-page);
+}
+
+.header_title {
+    width: 100%;
+    text-align: center;
+    background-color: var(--cor-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: var(--cor-0);
+    background-color: var(--cor-1);
+    height: 6rem;
+    position: fixed;
+    top: 0;
+}
+
+.header_image img {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    list-style: inside;
+}
+
+.container_content {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    gap: 1rem 0;
+}
+
+.container_content_two {
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.header>button {
+    font-family: var(--font-title-page);
+    border-radius: 1rem;
+    border: none;
+}
+
+.header_toggle {
+    background-color: var(--cor-3);
+    height: 6rem;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.container_content_two>h2,
+.container_content_three>h2,
+.container_content_four>h2,
+.container_content_five>h2 {
+    color: #814c3c;
+}
+
+
+.container_content_four_list,
+.container_content_two_list,
+span {
+    color: #000;
+}
+
+.container_content_five .item_table {
+    color: #814c3c;
+    margin-left: 1rem;
+}
+
+.container h1,
+h2 {
+    font-family: var(--font-title-page);
+    margin-bottom: 1rem;
+}
+
+.container h1 {
+    font-size: 2rem;
+    color: #34302d;
+}
+
+.container p,
+li,
+table {
+    font-family: var(--font-content-page);
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color: #514d4d;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: var(--cor-3);
+    color: var(--cor-0);
+    background-color: var(--cor-1);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem 0rem;
+}
+
+.footer h2 {
+    font-family: var(--font-title-page);
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.footer_links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+footer img {
+    background-color: var();
+}
+
+.footer_links a {
+    text-decoration: none;
+    color: var(--cor-0);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: var(--font-title-page);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    text-transform: uppercase;
+}
+
+.footer_name {
+    color: var(--cor-3);
+    text-decoration: none;
+}
+
+.footer_name:hover {
+    color: var(--cor-4);
+    cursor: pointer;
+}
+
+.footer_links a:hover {
+    color: var(--cor-4);
+}
+
+.github {
+    background-color: var(--cor-0);
+    width: 3rem;
+}
